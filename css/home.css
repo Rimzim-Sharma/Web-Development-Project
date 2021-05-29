@@ -1,0 +1,144 @@
+
+#navigationbar{
+	float: right;
+}
+#grad11 {
+	text-align: center;
+	color: white;
+    height: auto;
+    width: 250px;
+    background: linear-gradient(to right, #03185F ,#4E75F7); 
+}
+
+#grad1 {
+	padding-top: 1%;
+	text-align: center;
+	color: white;
+    height: auto;
+    background: linear-gradient(to right, #03185F ,#4E75F7); 
+}
+.dropdown-item{
+color: #007bff!important;
+}
+.carousel-caption{
+	padding-bottom: 4%;
+}
+.carousel-caption p{
+	text-align: left;
+}
+.carousel-caption h3{
+	text-align: left;
+}
+.tbl{
+	color: #3399ff;
+}
+.bckground{
+	color: white;
+	background: #232628;
+	padding: 40px 40px 40px 40px;
+}
+
+
+.grad2 {
+	padding-top: 1%;
+	text-align: center;
+	color: white;
+    height: auto;
+    background: linear-gradient(to right ,#cc33ff ,#3399ff); 
+}
+/*second slider*/
+.changesin2 > li {
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	background-color: #8dc8ec;
+	margin-bottom: -10%;
+	}
+.changesin2 .active{
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	background-color: #1585c9;
+}
+
+
+ .carousel-inner img {
+      width: 130%;
+      height: 130%;
+}
+ .styling{
+ 	font-size: 15px;
+ }
+ .foothead{
+ 	margin-top: 19px;
+ 	color: white;
+ 	font-size: 25px;
+ 	font-weight: 5px;
+ }
+ .hhide{
+ 	display: inline-block;
+
+ }
+ @media screen and (max-width: 992px) {
+    .hhide{
+    	display: none;
+    }
+}
+ul {
+  list-style: none;
+}
+@media screen and (max-width: 992px){
+	.tdrop{
+		width:300px;
+	}
+}
+ 
+/* dropdown */
+@media screen and (max-width: 575px){
+	.modi{
+		width: auto;
+		overflow: scroll;
+	}
+	}
+
+.drp{
+	color: #024ca2;
+}
+.logo{
+	 max-height: 70; 
+	 min-height: 60;
+	 min-width: 100; 
+	 max-width: 110;
+}
+
+.lift{
+	margin-left: 8%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.shift{
+	margin-right: 17%;
+}
+.bar{
+	float: right;	
+}
+.sol{
+	color: #024ca2;
+}
+.ori{
+	text-align: center;
+}
+
+#feedback{ 
+  height: 40px;
+  width: 174px;
+  position: fixed;
+  text-align: center;
+  right: -67px;
+  top: 50%;
+  z-index: 1000;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  color: white;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}

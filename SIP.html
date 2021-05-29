@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIP-Business Solutions</title>
+  <link rel="icon" href="images/icon.png">
+		<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="css/SIP.css"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="cssa/ccc1.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    
+$(window).on('load', function() {
+    var pre_loader = $('#preloader');
+    pre_loader.fadeOut('slow', function() {
+      $(this).remove();
+    });
+  });
+
+</script>
+<style type="text/css">
+  .numberCircle {
+  border-radius: 50%;
+  behavior: url(PIE.htc);
+  /* remove if you don't care about IE8 */
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  background: #fff;
+  border: 2px solid #4093da;
+  color: #4093da;
+  text-align: center;
+  font: 1em Arial, sans-serif;
+  font-weight: 8px;
+}
+.dropdown-item{
+color: #007bff!important;
+}
+
+
+#navigationbar{
+  float: right;
+}
+#grad11 {
+  text-align: center;
+  color: white;
+    height: auto;
+    width: 250px;
+    background: linear-gradient(to right, #03185F ,#4E75F7); 
+}
+#grad1 {
+  padding-top: 1%;
+  text-align: center;
+  color: white;
+    height: auto;
+    background: linear-gradient(to right, #03185F ,#4E75F7); 
+}
+.bckground{
+  color: white;
+  background: #232628;
+  padding: 40px 40px 40px 40px;
+}
+ .styling{
+  font-size: 15px;
+ }
+ .foothead{
+  margin-top: 19px;
+  color: white;
+  font-size: 25px;
+  font-weight: 5px;
+ }
+ .hhide{
+  display: inline-block;
+
+ }
+ @media screen and (max-width: 992px) {
+    .hhide{
+      display: none;
+    }
+}
+ul {
+  list-style: none;
+}
+.logo{
+   max-height: 70; 
+   min-height: 60;
+   min-width: 100; 
+   max-width: 110;
+}
+.dropdown-menu-right {
+  right: -200px!important;
+}
+/* dropdown */
+@media screen and (max-width: 575px){
+  .modi{
+    width: auto;
+    overflow: scroll;
+  }
+  }
+</style>
+
+</head>
+<body>
+
+	<!--top bar-->
+
+  <div id="preloader"></div>
+<div id="grad1">
+  <span class="hhide"><i style="font-size:18px">Contact us to be 'that' business</i></span>
+<span><i class="material-icons">phone_iphone</i><i>1111 1111</i></span>
+<span><i class="fa fa-envelope-o" style="font-size:27px;color:white"></i><i> info@abcpark.com.au</i></span>
+</div>
+
+
+<nav class="container navbar navbar-expand-sm bg-white navbar-important colll sticky-top navbg">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon my-toggler"></span>
+                      </button>
+
+                      <a class="navbar-brand" href="#"><img src="images/telstraa.png" class="img logo"></a>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto font-weight-bold">
+            <li class="nav-item">
+                <a class="nav-link" href="index.php">HOME</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                      SOLUTIONS
+                    </a> <!--drop down-->
+                   <div class="dropdown-menu dropdown-menu-right">
+
+<div class="container-fluid modi" style="height: auto; width: 550px;">
+  <div class="row">
+    <div class="col-sm-3" style="padding: 0px; margin: 0px;">
+      <a class="tdrop dropdown-item" href="phone_system.php"><b>Phone Systems</b></a>
+      <a class="tdrop dropdown-item" href="iPECS_UCP.php">iPECS UCP</a>
+      <a class="tdrop dropdown-item" href=""></a>
+    </div>
+    <div class="col-sm-3" style="padding: 0px;margin: 0px;"><a class="tdrop dropdown-item" href="voice.php"><b>Voice</b></a>
+        <a class="tdrop dropdown-item" href="DOT.php">DOT</a>
+        <a class="tdrop dropdown-item" href="Small_business_bundles.php">Small Business<br> Bundles</a>
+        <a class="tdrop dropdown-item" href="SIP.php">SIP</a>
+
+    </div>
+    <div class="col-sm-3" style="padding: 0px; margin:0px;"><a class="tdrop dropdown-item" href="Data_&_Fiber.php"><b>Data & Fiber</b></a>
+        <a class="tdrop dropdown-item" href="nbn_Guarantee.php">NBN Guarantee</a>
+        <a class="tdrop dropdown-item" href="NBN_Small_Business_Plans.php">NBN Small <br>Business Plans</a>
+    </div>
+    <div class="col-sm-3" style="padding: 0px; margin:0px;"><a class="tdrop dropdown-item" href="Mobility.php"><b>Mobility</b></a>
+        <a class="tdrop dropdown-item" href="leasing.php">Leasing</a>
+        <a class="tdrop dropdown-item" href="Mobile_Device_Management.php">Mobile Device<br> Management</a>
+  </div>
+</div>
+
+
+  <div class="row">
+    <div class="col-sm-3" style="padding: 0px; margin:0px;">
+      <a class="tdrop dropdown-item" href="ICT_Services.php"><b>ICT Services</b></a></div>
+    <div class="col-sm-3" style="padding: 0px; margin:0px;">
+        <a class="tdrop dropdown-item" href="Video.php"><b>Video</b></a></div>
+    <div class="col-sm-3" style="padding: 0px; margin:0px;">
+        <a class="tdrop dropdown-item" href="IOT.php"><b>IOT</b></a></div>
+    <div class="col-sm-3" style="padding: 0px; margin:0px;">
+        <a class="tdrop dropdown-item" href="Marketing.php"><b>Marketing</b></a>
+    </div></div>
+</div>
+</div>
+            </li>
+       
+            <li class="nav-item">
+                <a class="nav-link" href="nbn_finder.php">NBN<span style="color: white;">_</span>FINDER</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="support.php">SUPPORT</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="about_us.php">ABOUT</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="contact_us.php">CONTACT</a>
+            </li>
+
+        </ul>
+    </div>
+    </nav>
+
+
+
+
+
+
+
+	<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+    	<h2 style="color: #024ca2; font-weight: 5px;">SIP<h2><br>
+    	<p style="font-size: 18px; color: #0caee6; " ><b>Enhance your communications</b></p>
+	   	<p style="font-size: 16px;" >Put voice and data on a single IP network</p>
+    </div>
+    <div class="col-sm-6"><center><img  class="img-fluid" src="images/SIP-1.jpg"></center></div>
+  </div>
+</div>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+     <p> SIP Connect is compatible with our hosted IP Telephony solution so you can use both premise-based and hosted equipment to create a hybrid solution tailored to suit each site.<br>
+
+This means your organisation can realise the benefits of IP Telephony with high security, increased efficiency and reduced maintenance costs.<br>
+
+You can also have the latest IP voice functions, while reducing call costs with on-net calling.<br>
+
+With oura Business Systems SIP Connect plans, you can pay from $108 per month for 36 months and enjoy included:<br>
+
+– Standard local calls<br>
+
+– National long distance (STD®) calls.<br>
+
+– Calls from your fixed line to mobiles.</p><br>
+
+    </div>
+    <div class="col-sm-6">
+      
+      <h3 style="color: #000000;font-weight: 400;">Contact us</h3>
+      <hr style="height: 2px; width: 19%; border: 1px solid #4093da; background: #4093da; margin-left: 0%; margin-top: 0px;">
+      <br>
+     <b> Talk to your Account Executive.</b>
+
+<p>Not sure who they are?</p>
+<span><img src="images/PHONE.png" style="margin-top: -18px;"><i>9445 0678</i></span>
+
+<p>We’re available Monday to Friday, 9am-5pm</p>
+<img src="images/sss.png">  Support
+</div>
+</div>
+</div>
+
+
+
+
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+        <div class="container">
+      <h3 style="color: #000000;font-weight: 400;">Business SIP</h3>
+      <hr style="height: 2px; width: 19%; border: 1px solid #4093da; background: #4093da; margin-left: 0%; margin-top: 0px;">
+      <br>
+</div>
+
+      <p style="font-size: 16px;" >Moving to IP voice couldn’t be easier. With Business SIP, you get a simple, affordable, alternative to ISDN that’s available now.</p>
+    </div>
+    <div class="col-sm-6">
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NHxHQsNqhcY"allowfullscreen></iframe>
+</div></div>
+  </div>
+</div>
+
+<br>
+
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+        <div class="container">
+      <h3 style="color: #000000;font-weight: 400;">Liberate</h3>
+      <hr style="height: 2px; width: 19%; border: 1px solid #4093da; background: #4093da; margin-left: 0%; margin-top: 0px;">
+      <br>
+</div>
+
+      <p style="font-size: 16px;" >Enjoy the best of the desk phone on your mobile. Combine landline and mobile communications to improve the way you work with this powerful add-on.</p>
+    </div>
+    <div class="col-sm-6">
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FetloIHD3DA"allowfullscreen></iframe>
+</div></div>
+  </div>
+</div>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+      
+<h3 style="color: #000000;font-weight: 400;font-style:normal;">Help your organisation to get</h3>
+<hr style="height: 2px; width: 28%; border: 1px solid #4093da; background: #4093da; margin-left: 0%; margin-top: 0px;">
+<br>
+
+<div class="container row">
+<div class="col-md-1"><div class="numberCircle">1</div></div>
+<div class="col-md-11"><b>Flexibility</b>
+<p>You can choose to use a mix of legacy and hosted equipment to suit each site. You can also reallocate capacity when needed with the optional Business Trunks Shared Capacity feature.</p>
+</div>
+</div>
+
+<div class="container row">
+<div class="col-md-1"><div class="numberCircle">2</div></div>
+<div class="col-md-11"><b>Scalability</b>
+<p>Add or remove voice channels fast at low cost as business needs change..</p>
+</div>
+</div>
+
+
+<div class="container row">
+<div class="col-md-1"><div class="numberCircle">3</div></div>
+<div class="col-md-11"><b>Improved management</b>
+<p>Simplify moves, additions and changes. Call reporting allows you to control forecasting and budgeting.</p>
+</div>
+</div>
+
+<div class="container row">
+<div class="col-md-1"><div class="numberCircle">4</div></div>
+<div class="col-md-11"><b>Real Time Billing :</b>
+<p>Real time billing provides outgoing call record information after the completion of each call. It allows you to monitor call costs with appropriate software so you can forecast and budget with more accuracy.</p>
+</div>
+</div>
+
+
+<div class="container row">
+<div class="col-md-1"><div class="numberCircle">5</div></div>
+<div class="col-md-11"><b>Business Trunks Shared Capacity:</b>
+<p>Purchasing a shared pool of call capacity instead of having dedicated capacity for individual sites, allows consolidation of call resources, reducing the total number of channels required. This also provides the possibility to maintain full call capacity for business continuity in the event of a</p>
+</div>
+</div>
+    </div>
+    <div class="col-sm-4">
+  
+<h3 style="color: #000000;font-weight: 400;font-style:normal;">Potential business impact:</h3>
+<hr style="height: 2px; width: 28%; border: 1px solid #4093da; background: #4093da; margin-left: 0%; margin-top: 0px;">
+<br>
+<p>
+1.Improve productivity<br>
+2.Reduced infrastructure costs<br>
+3.Enhanced business continuity<br>
+</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+<h3 style="color: #000000;font-weight: 400;font-style:normal;">Contact us</h3>
+<hr style="height: 2px; width: 10%; border: 1px solid #4093da; background: #4093da; margin-left: 0%; margin-top: 0px;">
+<br>
+<p>Talk to your Account Executive.<br>
+<a href=""> Call</a> 08 1111 1111<br>
+We’re available Monday to Friday, 9am-5pm</p>
+</div>
+<!--footer-->
+<div class="container-fluid styling">
+  <div class="row bckground" >
+    <div class="col-md-6 col-sm-6">
+      <ul class="font-weight-bold" style="line-height: 30px; margin-left: 0%;">
+    <li><p class="foothead">Business Solution Centre | Mohit Park</p></li>
+    <li>102 Osborne Park WA 60127</li>
+<div style="color: white; border: 3px solid #232628; border-radius: 8px;" id="grad11" ><li>08 1111 1111</li></div>
+<div style="color: white; border: 3px solid #232628; border-radius: 8px;" id="grad11"><li>info@abcpark.com.au</li></div>
+<div style="color: white; border: 3px solid #232628; border-radius: 8px;" id="grad11"><li>Request a Call Back</li></div>
+    <li>Mon - Fri 9am - 5pm</li>
+    <li>Sat - Sun Closed</li>
+    </div>
+    <div class="col-md-3">
+      <ul class="font-weight-bold" style="line-height: 30px; ">
+        <li><p class="foothead">Services</p></li>
+        <li>Phone Systems</li>
+        <li>Voice</li>
+        <li>Data & Fiber</li>
+        <li>Mobility</li>
+        <li>ICT Services</li>
+        <li>Video</li>
+        <li>IoT</li>
+        <li>Marketing</li> 
+        </ul>   
+    </div>
+    <div class="col-md-3">
+   <ul class="font-weight-bold" style="line-height: 30px; margin-top: 70px">
+      <li>NBN Finder</li>
+      <li>Support</li>
+      <li>About Us</li>
+      <li>Contact Us</li>
+    </ul>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+
+ .hding1{
+  font-size: 6vw!important;
+ }
+ .hding2{
+   font-size: 3vw!important;
+ }
+ .hding3{
+      font-size: 2vw!important; 
+  }
+ @media screen and (max-width: 494px){
+  .hding1{
+    font-size: 1vw; 
+  }
+  .hding2{
+      font-size: 1vw; 
+  }
+  .hding3{
+      font-size: 1vw; 
+  }
+  .btnhide{
+    display: none;
+  }
+  }
+div#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #fff url('../images/telstraa.png') no-repeat center center;
+}
+
+
